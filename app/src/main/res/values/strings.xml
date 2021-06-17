@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gowes Community</string>
+    <string name="title_tracker">Tracker</string>
+    <string name="title_onboarding">Onboarding</string>
+    <string name="home_navigation_menu">home</string>
+    <string name="profile_navigation_menu">profile</string>
+    <string name="title_home">Home</string>
+    <string name="this_month">This Month</string>
+    <string name="set_your_target">Set your target</string>
+</resources>

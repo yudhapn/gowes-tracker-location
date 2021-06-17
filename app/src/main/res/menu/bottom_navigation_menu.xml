@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/on_boarding"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_24"
+        android:title="@string/home_navigation_menu" />
+    <item
+        android:id="@id/tracker"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile_24"
+        android:title="@string/profile_navigation_menu" />
+</menu>

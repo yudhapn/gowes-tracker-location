@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/on_boarding">
+
+        <include-dynamic
+            android:id="@+id/on_boarding"
+            app:graphResName="nav_graph_onboarding"
+            app:moduleName="onboarding"
+            app:graphPackage="id.community.gowes.onboarding"/>
+
+        <include-dynamic
+            android:id="@+id/tracker"
+            app:graphResName="nav_graph_tracker"
+            app:moduleName="tracker"
+            app:graphPackage="id.community.gowes.tracker"/>
+</navigation>
